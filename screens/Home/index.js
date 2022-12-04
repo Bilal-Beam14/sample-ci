@@ -6,9 +6,9 @@ const Home = props => {
   return (
     <View style={styles.container}>
       <View style={styles.container2}>
-        <Text>{props.lol}</Text>
+        <Text>{props.text}</Text>
       </View>
-      <View style={styles.container3}>
+      <View style={styles.container2}>
         <Text>{props.text}</Text>
       </View>
     </View>
